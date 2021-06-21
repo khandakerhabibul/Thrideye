@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- class="container-fluid" -->
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <img class="logoTechForing" src="Images/techforingLogo.png" alt="TechForing">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon navbar-dark"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-link-padding" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link menu-link nav-link-design" href="#more">More</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu-link nav-link-design" href="#services">Services</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-left-side">
+                            <li class="nav-item">
+                                <a class="nav-link menu-link nav-link-design" href="#pricing">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu-link nav-link-design" href="#features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu-link nav-link-design" href="#resources">Resources</a>
+                            </li>
+                            <button class="button-sign-up" type="submit">Sign In / Sign
+                                Up</button>
+                            <!-- my-2 my-sm-0 -->
+                        </ul>
+
+                    </div>
+                    <!-- <div class="collapse navbar-collapse nav-link-padding">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-left-side">
+                            <li class="nav-item">
+                                <button class="button" type="submit">Sign In / Sign
+                                    Up</button>
+                            </li>
+                        </ul>
+                    </div> -->
+                </div>
+            </nav>
+        </div>
+
+        <div class="headerImg mb-5">
+            <div class="d-flex justify-content-center headline">
+                <h1 class="headline-size">TECHFORING VULNERABILITY SCANNER</h1>
+            </div>
+            <div class="d-flex justify-content-center flex-column mb-4">
+                <div>
+                    <p class="info-paragraph1">THIRDEYE is an vulnerability scanner that finds cyber security weaknesses
+                        in your digital
+                        infrustructure before the hackers do.</p>
+                </div>
+                <div>
+                    <p class="info-paragraph2">Discover common web application vulnerabilities and server configuaration
+                        issues.</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <form>
+                    <div class="mb-4 form-width">
+                        <input type="email" class="form-control input-size" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="https://www.example.com">
+                    </div>
+                    <div class="mb-4 form-width">
+                        <input type="password" class="form-control input-size" id="exampleInputPassword1"
+                            placeholder="your email address">
+                    </div>
+                    <button type="submit" class="button-form">FREE SCAN</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-4">
+            <div class="bar"></div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+            <h2 class="title-res">TRUSTED BY IT AND TELECOM COMPANIES BE LIKE</h2>
+        </div>
+
+        <div class="all-service-logo mb-5">
+            <div class="service-logo-res-1">
+                <div class="service-logo">
+                    <img class="logo-small" src="Images/webtrix-logo.png" alt="webtrix-logo">
+                </div>
+                <div class="service-logo">
+                    <img class="logo-small" src="Images/webtrix-logo.png" alt="webtrix-logo">
+                </div>
+                <div class="service-logo">
+                    <img class="logo-small" src="Images/webtrix-logo.png" alt="webtrix-logo">
+                </div>
+            </div>
+            <div class="service-logo-res-2">
+                <div class="service-logo">
+                    <img class="logo-small" src="Images/webtrix-logo.png" alt="webtrix-logo">
+                </div>
+                <div class="service-logo">
+                    <img class="logo-small" src="Images/webtrix-logo.png" alt="webtrix-logo">
+                </div>
+                <div class="service-logo">
+                    <img class="logo-small" src="Images/webtrix-logo.png" alt="webtrix-logo">
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-4" id="more">
+            <div class="bar"></div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+            <h2 class="title-res">WANT A FULL SCAN?</h2>
+        </div>
+
+        <div class="d-flex justify-content-center mb-2">
+            <div>
+                <p class="full-scan-paragraph full-scan-paragraph-res">
+                    Website Vulnerability Free scan performs a passive web security scan in order to detect issues like:
+                    outdated server software, insecure HTTP header, insecure cookie settings and a few others. We
+                    recommend doing a Full Scan for a comprehensive website assessment which includes detection of SQL
+                    Injection, XSS, Local File Inclusion, OS Command Injection and more.
+                </p>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+            <button type="submit" class="button-full-scan full-scan-btn-res">FULL SCAN</button>
+        </div>
+
+        <div class="sample-report">
+            <div class="sample-report-all-info-res">
+                <h2 class="mb-5">Sample Report</h2>
+                <h3 class="mb-5">Here is a Website vulnerability Scanner sample report:</h3>
+                <div class="d-flex flex-row">
+                    <div class="circle-dot"></div>
+                    <div class="circle-dot-info">
+                        <p>The report starts with a quick summary of the findings and risk ratings</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="circle-dot"></div>
+                    <div class="circle-dot-info">
+                        <p>Each finding has a detailed explanation in terms of risk and recommendations</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="circle-dot"></div>
+                    <div class="circle-dot-info">
+                        <p>The vulnerabilities are ordered by the risk level</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="sample-report-img" src="Images/4.png" alt="scan-images">
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-4" id="services">
+            <div class="bar"></div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+            <h2 class="mb-4 title-res">WHAT THIRDEYE LOOKS FOR ON YOUR SITE</h2>
+        </div>
+
+        <div class="mb-5 site-checking-details">
+            <div class="d-flex flex-column site-checking-details-topic-1">
+                <div class="d-flex flex-row mb-5">
+                    <div class="icon-img">
+                        <img src="icons/clipboard.png" alt="clipboard-icon">
+                    </div>
+                    <div>
+                        <div class="green-bar mb-1"></div>
+                        <div class="site-details-info">
+                            <h3 class="mb-3 site-details-paragraph-title">Self-Security Assessment</h3>
+                            <p class="site-details-paragraph">You can perform a self-security assessment in order to
+                                detect weaknesses in your own application. This will allow you to fix the
+                                vulnerabilities before being hit by real attackers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row mb-5">
+                    <div class="icon-img">
+                        <img src="icons/Vector Smart Object.png" alt="clipboard-icon">
+                    </div>
+                    <div>
+                        <div class="green-bar mb-1"></div>
+                        <div class="site-details-info">
+                            <h3 class="mb-3 site-details-paragraph-title">Comprehensive Vulnerability Discovery</h3>
+                            <p class="site-details-paragraph">Detect a wide range of network service and web application
+                                vulnerabilities across any Internet facing system</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column site-checking-details-topic-2">
+                <div class="d-flex flex-row mb-5">
+                    <div class="icon-img">
+                        <img src="icons/Vector Smart Object1.png" alt="clipboard-icon">
+                    </div>
+                    <div>
+                        <div class="green-bar mb-1"></div>
+                        <div class="site-details-info">
+                            <h3 class="mb-3 site-details-paragraph-title">Ongoing Vulnerability Management</h3>
+                            <p class="site-details-paragraph">Schedule scans for weekly or monthly reports. Configure
+                                report to alert on changes to vulnerability count</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row mb-4 top-pad">
+                    <div class="icon-img">
+                        <img src="icons/real-time.png" alt="clipboard-icon">
+                    </div>
+                    <div>
+                        <div class="green-bar mb-1"></div>
+                        <div class="site-details-info">
+                            <h3 class="mb-3 site-details-paragraph-title">Real Time Risk Visibility</h3>
+                            <p class="site-details-paragraph">Detailed reports that include vulnerbility severity with
+                                technical details of immediate value to the user.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-details-icon-box mb-5">
+            <div class="site-details-columns">
+                <div class="service-logo site-details-icon-box-pad">
+                    <div class="site-details-icon-below">
+                        <img class="check-mark" src="icons/check-mark.png" alt="webtrix-logo">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h1 class="mb-3 site-details-icon-tag">100<span class="small-size">%</span></h1>
+                        <p class="site-details-icon-paragraph">Guaranteed</p>
+                    </div>
+                </div>
+                <div class="service-logo site-details-icon-box-pad">
+                    <div class="site-details-icon-below">
+                        <img class="customer" src="icons/customer.png" alt="webtrix-logo">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h1 class="mb-3 site-details-icon-tag">700<span class="small-size">k+</span></h1>
+                        <p class="site-details-icon-paragraph">Satisfied Client</p>
+                    </div>
+                </div>
+            </div>
+            <div class="site-details-columns">
+                <div class="service-logo site-details-icon-box-pad">
+                    <div class="site-details-icon-below">
+                        <img class="zoom" src="icons/zoom.png" alt="webtrix-logo">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h1 class="mb-3 site-details-icon-tag">500<span class="small-size">%</span></h1>
+                        <p class="site-details-icon-paragraph">Sites scanned daily</p>
+                    </div>
+                </div>
+                <div class="service-logo site-details-icon-box-pad">
+                    <div class="site-details-icon-below">
+                        <img class="report" src="icons/report (1).png" alt="webtrix-logo">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h1 class="mb-3 site-details-icon-tag">100<span class="small-size">%</span></h1>
+                        <p class="site-details-icon-paragraph">Authentic report generate</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="d-flex justify-content-center flex-md-row flex-sm-column flex-column-reverse features"
+            id="features">
+            <div>
+                <img class="feature-img" src="Images/mockup-desktop.png" alt="mockup-desktop">
+            </div>
+            <div class="feature-whole-box">
+                <div class="d-flex justify-content-center mb-3">
+                    <div class="small-blue-bar"></div>
+                </div>
+                <div class="d-flex flex-column justify-content-center mb-2 feature-details">
+                    <h2 class="mb-1 title-res">Features of Thirdeye</h2>
+                    <p class="feature-paragraph">Facilities you will get using this scanner</p>
+                </div>
+
+                <div class="d-flex  flex-md-row flex-sm-column flex-column justify-content-center">
+                    <div class="d-flex flex-column justify-content-center feature-column-right-margin">
+                        <div class="d-flex flex-column justify-content-center feature-box mb-3">
+                            <div>
+                                <img class="feature-icon" src="icons/scan.png" alt="scan">
+                            </div>
+                            <p class="feature-paragraph-2">Automate your scan</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center feature-box mb-3">
+                            <div>
+                                <img class="feature-icon" src="icons/team.png" alt="scan">
+                            </div>
+                            <p class="feature-paragraph-2">Work together with programmer and developer</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class="d-flex flex-column justify-content-center feature-box mb-3">
+                            <div>
+                                <img class="feature-icon" src="icons/Vector Smart Object2.png" alt="scan">
+                            </div>
+                            <p class="feature-paragraph-2">Invite your other organizations users</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center feature-box mb-3">
+                            <div>
+                                <img class="feature-icon" src="icons/report (1).png" alt="scan">
+                            </div>
+                            <p class="feature-paragraph-2">Generate automated report</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex  flex-md-row flex-sm-column flex-column justify-content-center">
+                    <div class="d-flex flex-column justify-content-center feature-box mb-5">
+                        <div>
+                            <img class="feature-icon" src="icons/vulnerability.png" alt="scan">
+                        </div>
+                        <p class="feature-paragraph-2">Find the most common vulnerabilities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-4">
+            <div class="bar"></div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-4">
+            <h2 class="mb-4 title-res-customer">WHAT OUR CUSTOMER SAY</h2>
+        </div>
+
+        <div class="d-flex flex-sm-row flex-column justify-content-center mb-5 customer-box-pad" id="customerList">
+            <div class="customer1" id="customer1">
+                <div class="d-flex flex-column justify-content-center customer">
+                    <div class="customer-box">
+                        <img src="icons/left-quotes-sign.png" alt="social icons">
+                        <p class="customer-box-paragraph">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting
+                            industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s,</p>
+                    </div>
+                    <div>
+                        <img class="customer-img" src="Images/Layer 1.png" alt="customer-image">
+                        <div class="small-green-bar"></div>
+                        <h4 class="customer-name">AI James, CTO</h4>
+                        <p class="customer-company mb-4">Omertria</p>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center custom-customer-btn">
+                        <button onclick="next()" class="btn-back"></button>
+                        <button onclick="next()" class="btn-next"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="right-arrow">
+                <img class="right-arrow-img" src="icons/right-arrow copy.png" alt="right-arrow">
+            </div>
+            <div class="customer2" id="customer2">
+                <div class="d-flex flex-column justify-content-center customer">
+                    <div class="customer-box">
+                        <img src="icons/left-quotes-sign.png" alt="social icons">
+                        <p class="customer-box-paragraph">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting
+                            industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s,</p>
+                    </div>
+                    <div>
+                        <img class="customer-img" src="Images/Layer 1.png" alt="customer-image">
+                        <div class="small-green-bar"></div>
+                        <h4 class="customer-name">James AI , CTO</h4>
+                        <p class="customer-company mb-4">Omertria</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center custom-customer-btn">
+                    <button onclick="next()" class="btn-back"></button>
+                    <button onclick="next()" class="btn-next"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-4" id="pricing">
+            <div class="bar"></div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-4">
+            <h2 class="mb-4 title-res">PRICING</h2>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center mb-5 all-pricing">
+            <div>
+                <img class="price-img" src="Images/price.png" alt="price">
+            </div>
+            <div class="d-flex flex-row justify-content-center" id="pricingList">
+                <div class="pricing-box-1-hide" id="pricing-box-1">
+                    <div class="d-flex flex-column mb-5 pricing-box-1">
+                        <div class="pricing-box-top"></div>
+                        <div class="pricing-box-header">
+                            <h4>BASIC</h4>
+                            <p class="pricing-paragraph">1 user</p>
+                            <h4 class="mb-5">$49 /month</h4>
+                            <div class="tick-pad-top">
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                            </div>
+                            <p class="pricing-paragraph">Free trial</p>
+                            <button type="submit" class="price-sign-up-btn">SIGN UP</button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center custom-customer-btn">
+                        <button onclick="nextPrice()" class="btn-back"></button>
+                        <button onclick="nextPrice()" class="btn-next"></button>
+                    </div>
+                </div>
+
+                <div class="pricing-box-2-hide" id="pricing-box-2">
+                    <div class="d-flex flex-column mb-5 pricing-box-2">
+                        <div class="pricing-box-top"></div>
+                        <div class="pricing-box-header">
+                            <h4>MEDIUM</h4>
+                            <p class="pricing-paragraph">5 user</p>
+                            <h4 class="mb-5">$199 /month</h4>
+                            <div class="tick-pad-top">
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                            </div>
+                            <p class="pricing-paragraph">Free trial</p>
+                            <button type="submit" class="price-sign-up-btn">SIGN UP</button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center custom-customer-btn">
+                        <button onclick="nextPrice()" class="btn-back"></button>
+                        <button onclick="nextPrice()" class="btn-next"></button>
+                    </div>
+                </div>
+
+                <div class="pricing-box-3-hide" id="pricing-box-3">
+                    <div class="d-flex flex-column mb-5 pricing-box-3">
+                        <div class="pricing-box-top"></div>
+                        <div class="pricing-box-header">
+                            <h4>ADVANCED</h4>
+                            <p class="pricing-paragraph">20 user</p>
+                            <h4 class="mb-5">$349 /month</h4>
+                            <div class="tick-pad-top">
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                                <div>
+                                    <img class="tick-mark mb-5" src="icons/tick.png" alt="tick">
+                                </div>
+                            </div>
+                            <p class="pricing-paragraph">Free trial</p>
+                            <button type="submit" class="price-sign-up-btn">SIGN UP</button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center custom-customer-btn">
+                        <button onclick="nextPrice()" class="btn-back"></button>
+                        <button onclick="nextPrice()" class="btn-next"></button>
+                    </div>
+                </div>
+
+                <div class="pricing-box-4-hide" id="pricing-box-4">
+                    <div class="d-flex flex-column mb-5 pricing-box-4">
+                        <div class="pricing-box-top"></div>
+                        <div>
+                            <div class="pricing-box-header">
+                                <h4 class="mb-5">CUSTOM</h4>
+                                <h4 class="mb-5 price-on-demand">On Demand</h4>
+                                <p class="price-on-demand-paragraph">Go beyond scanning what you build and host with Get
+                                    it
+                                    All!
+                                    Designed for large organizations, this scalable offering is made for easy and
+                                    flexible
+                                    roll-out
+                                    and provides additional Enterprise support, including:</p>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div class="circle-dot-small"></div>
+                                <div class="pricing-dot-info">
+                                    <p>Specific Functionality</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div class="circle-dot-small"></div>
+                                <div class="pricing-dot-info">
+                                    <p>Custom Scan Limit</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div class="circle-dot-small"></div>
+                                <div class="pricing-dot-info">
+                                    <p>More Users</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center custom-customer-btn">
+                        <button onclick="nextPrice()" class="btn-back"></button>
+                        <button onclick="nextPrice()" class="btn-next"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+
+        <div class="d-flex  flex-md-row flex-sm-column flex-column justify-content-center blue-box mb-5">
+            <div>
+                <img class="desktop-mockup" src="Images/desktop-mockup.png" alt="desktop-mockup">
+            </div>
+            <div class="blue-box-info">
+                <div class="d-flex justify-content-center mb-4">
+                    <div class="white-bar"></div>
+                </div>
+
+                <div class="d-flex justify-content-center mb-4">
+                    <h2 class="mb-4 blue-box-text">READY TO GET STARTED WITH YOUR 30-DAY TRAIL?</h2>
+                </div>
+                <div>
+                    <button type="submit" class="blue-box-btn">Try for free</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-4" id="resources">
+            <div class="bar top-margin"></div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-4">
+            <h2 class="mb-5 title-res">RESOURCES</h2>
+        </div>
+
+        <div class="d-flex   flex-md-row flex-sm-column flex-column justify-content-center mb-5 resources">
+            <div class="d-flex  flex-md-row flex-sm-column flex-column justify-content-center" id="resourceList">
+                <div class="card-holder-1" id="card-holder-1">
+                    <div class="d-flex flex-column justify-content-center card-holder mb-4">
+                        <div>
+                            <h3 class="resource-h">Guides</h3>
+                        </div>
+                        <div class="blue-underline mb-4"></div>
+                        <div class="card card-box">
+                            <img class="card-img-top" src="Images/Vector Smart Object copy 3.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text card-text-1 mb-4">Follow our helpful guides and tutorials to learn
+                                    how
+                                    to
+                                    use
+                                    thirdeye</p>
+                                <a href="#" class="card-btn">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center custom-customer-btn">
+                        <button onclick="nextCard()" class="btn-back"></button>
+                        <button onclick="nextCard()" class="btn-next"></button>
+                    </div>
+                </div>
+
+                <div class="card-holder-2" id="card-holder-2">
+                    <div class="d-flex flex-column justify-content-center card-holder mb-4">
+                        <div>
+                            <h3 class="resource-h">Tips & Tricks</h3>
+                        </div>
+                        <div class="blue-underline mb-4"></div>
+                        <div class="card card-box">
+                            <img class="card-img-top" src="Images/Vector Smart Object copy 3.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text card-text-1 mb-4">Follow our helpful trips and tricks and know short
+                                    tricks
+                                    about website vulnerabilities</p>
+                                <a href="#" class="card-btn">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center custom-customer-btn">
+                        <button onclick="nextCard()" class="btn-back"></button>
+                        <button onclick="nextCard()" class="btn-next"></button>
+                    </div>
+                </div>
+
+                <div class="card-holder-3" id="card-holder-3">
+                    <div class="d-flex flex-column justify-content-center card-holder mb-4">
+                        <div>
+                            <h3 class="resource-h">Blog</h3>
+                        </div>
+                        <div class="blue-underline mb-4"></div>
+                        <div class="card card-box">
+                            <img class="card-img-top" src="Images/Vector Smart Object copy 3.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text card-text-1 mb-4">Read technical articles about current security
+                                    issues,
+                                    vulnerabilities, and expoits.</p>
+                                <a href="#" class="card-btn">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center custom-customer-btn">
+                        <button onclick="nextCard()" class="btn-back"></button>
+                        <button onclick="nextCard()" class="btn-next"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="d-flex flex-sm-row flex-column justify-content-center footer-div mb-5">
+            <div class="d-flex flex-column footer-topic-column">
+                <div class="d-flex flex-row justify-content-between">
+                    <div>
+                        <h3 class="footer-header">COMAPANY</h3>
+                    </div>
+                    <div>
+                        <button onclick="customerfooterDropdown()" class="btn-dropdown-footer"></button>
+                    </div>
+                </div>
+                <div class="white-underline mb-3"></div>
+                <!-- <span class="arrow"></span> -->
+                <div class="customer-footer" id="customerFooter">
+                    <div>
+                        <p class="footer-topic">ABOUT US</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">LEADERSHIP</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">CLIENTS & THEIR STORIES</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">PARTNERSHIP PROGRAM</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">FRANCHISE PROGRAM</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">INVESTOR RELATION</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">CAREER</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">FIND US</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column footer-topic-column">
+                <div class="d-flex flex-row justify-content-between">
+                    <div>
+                        <h3 class="footer-header">POPULAR LINKS</h3>
+                    </div>
+                    <div>
+                        <button onclick="popularfooterDropdown()" class="btn-dropdown-footer"></button>
+                    </div>
+                </div>
+
+                <div class="white-underline mb-3"></div>
+                <!-- <span class="arrow"></span> -->
+                <div class="popular-link-footer" id="popularLinkFooter">
+                    <div>
+                        <p class="footer-topic">RISK ASSESSMENT</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">BUSINESS INCIDENT RESPONSE</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">SMB SOLUTION</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">SECURITY COMPLIANCE</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">CONCIERGE CYBERSECURITY</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">CYBER INVESTIGATION</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">DATA REMOVAL</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">HACK RECOVERY FOR INDIVIDUAL</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column footer-topic-column">
+                <div class="d-flex flex-row justify-content-between">
+                    <div>
+                        <h3 class="footer-header">RESOURCES</h3>
+                    </div>
+                    <div>
+                        <button onclick="resourcefooterDropdown()" class="btn-dropdown-footer"></button>
+                    </div>
+                </div>
+                <div class="white-underline mb-3"></div>
+                <!-- <span class="arrow"></span> -->
+                <div class="resource-footer" id="resourceFooter">
+                    <div>
+                        <p class="footer-topic">CASE STUDIES</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">REPORTS & WHITEPAPERS</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">INDUSTRYWIDE GUIDES</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">TUTORIALS</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">SECURITYMANIA</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">EVENTS & WEBINARS</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">SITEMAP</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="d-flex flex-column footer-topic-column">
+                <div class="d-flex flex-row justify-content-between">
+                    <div>
+                        <h3 class="footer-header">LEGAL</h3>
+                    </div>
+                    <div>
+                        <button onclick="legalfooterDropdown()" class="btn-dropdown-footer"></button>
+                    </div>
+                </div>
+                <div class="white-underline mb-3"></div>
+                <!-- <span class="arrow"></span> -->
+                <div class="legal-footer" id="legalFooter">
+                    <div>
+                        <p class="footer-topic">PRIVACY POLICY</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">TERMS OF USE</p>
+                    </div>
+                    <div>
+                        <p class="footer-topic">TRUST CENTRE</p>
+                    </div>
+                </div>
+
+                <div class="social-icon-img">
+                    <img class="social-icon-img-modify" src="icons/social icons.png" alt="social icons">
+                </div>
+            </div>
+        </footer>
+
+        <div class="footer1">
+            <div class="d-flex flex-row justify-content-center below-footer mb-5">
+                <div class="d-flex flex row ">
+                    <p class="below-footer-paragraph ">Create an account or login</p>
+
+                </div>
+                <div class="below-footer-text">
+                    <button type="submit" class="below-footer-btn"><span class="arrow-modifier">&rarr;</span></button>
+                </div>
+                <div class="d-flex flex-row">
+                    <p class="below-footer-paragraph copyright">Copyright @ 2021 Techforing Ltd.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="d-flex flex-row">
+                <p class="below-footer-paragraph copyright">Copyright @ 2021 Techforing Ltd.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
